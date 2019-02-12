@@ -25,7 +25,7 @@ string randDNA (int seed, string bases, int n)
 
 		for(int i = 0; i < n; i++)		//Loop repeats until 'n', which is determined by the user
 		{ 
-			int randIndex = uni(random);
+			int randIndex = uni(eng1);
 			DNA += bases[randIndex];	//This randomly adds characters one from the user-entered base, to the string "DNA"
 		}
 
